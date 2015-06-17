@@ -8,7 +8,7 @@ import com.prizypricer.calculation.IdealPriceCalculatorException
  * for calulating the ideal price: add {@code 20%} to the the average of all prices
  * after removing the 2 lowest and 2 highest prices from the list. 
  * The calculation will complete successfully if, and only if, there is at least one
- * price left in the list after removing the lowest/highest. Otherwise it throws {@link IdealPriceCalculatorException}
+ * price left in the list after removing the lowest/highest.
  */
 class PrizyPricerIdealPriceCalculator implements IdealPriceCalculator {
 
