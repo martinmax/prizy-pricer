@@ -39,7 +39,7 @@ Tests can be run with the command:
 ```sh
 grails test-app
 ```
-This command will run all Spock, Grails and JUinit tests.
+This command will run all Spock, Grails and JUinit tests in the Grails embeded H2 database.
 
 ### Development
 ##### Ideal price calculator
